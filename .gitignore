@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Large GTFS data files (exceed GitHub file size limits)
+data/HVV/shapes.txt
+data/HVV/stop_times.txt
+data/DB/*.zip
+data/HVV/*.ZIP
