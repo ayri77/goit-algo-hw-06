@@ -1,4 +1,46 @@
+# goit-algo-hw-06
+
+## Встановлення та запуск
+
+### 1. Клонування репозиторію
+```bash
+git clone https://github.com/ayri77/goit-algo-hw-06.git
+cd goit-algo-hw-06
+```
+
+### 2. Встановлення залежностей
+```bash
+pip install networkx pandas matplotlib numpy
+```
+
+### 3. Дані GTFS
+Дані GTFS зберігаються в архіві `data/HVV_data.zip` для зменшення розміру репозиторію.
+
+**Автоматичне розархівування:**
+Дані автоматично розархівуються при першому запуску будь-якого завдання. 
+Якщо потрібно розархівувати вручну:
+```bash
+# Windows PowerShell
+Expand-Archive -Path data\HVV_data.zip -DestinationPath data\HVV -Force
+
+# Linux/Mac
+unzip data/HVV_data.zip -d data/HVV
+```
+
+### 4. Запуск завдань
+```bash
+# Завдання 1: Створення та візуалізація графа
+python src/task1.py
+
+# Завдання 2: DFS та BFS
+python src/task2.py
+
+# Завдання 3: Алгоритм Дейкстри
+python src/task3.py
+```
+
 ---
+
 ## Виконання завдання
 
 ### Завдання 1: Створення та візуалізація графа
